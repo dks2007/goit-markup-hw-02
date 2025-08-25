@@ -1,0 +1,190 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-accent {
+    color: #2e2f42;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.hero-btn {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    padding: 60px 0;
+}
+
+.features-title {
+    display: none; /* прихований для макета, але є для доступності */
+}
+
+.features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.features-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.features-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team {
+    background-color: #f4f4fd;
+    padding: 60px 0;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 24px;
+}
+
+.team-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 24px;
+    border-radius: 4px;
+}
+
+.team-member-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 16px 0 8px 0;
+}
+
+.team-member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+}
