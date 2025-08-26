@@ -51,7 +51,14 @@ ul{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 24px;
+    color: #4D5AE5;
 }
+.logo-accent{
+    color: #2E2F42;
+}
+.logo-footer{
+        color: #FFFFFF;
+    }
 .footer-text{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -60,13 +67,12 @@ ul{
 .hero{
     background-color: #2E2F42;
     color: #FFFFFF;
-
-    .hero-btn{
-        background-color: #4D5AE5;
-        color: #FFFFFF;
-    }
 }
+.hero-btn{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    }
  .page-footer{
-        background-color: #2E2F42;
-        color: #FFFFFF;
- }
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
