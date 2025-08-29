@@ -7,45 +7,44 @@
   --color-light-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
-  --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
 }
 
+/* Загальні стилі */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-slate);
   background-color: var(--color-white);
   font-size: 16px;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
-.list {
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
-/* Page Studio */
+/* ---------- HEADER ---------- */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-accent {
   color: var(--color-iris);
 }
 
-.logo-footer {
-  color: var(--color-cloud);
+.logo-accent {
+  color: var(--color-navy-blue);
 }
 
 .nav-link {
@@ -53,6 +52,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -66,9 +66,9 @@ body {
 
 .contact-link {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -76,10 +76,12 @@ body {
   color: var(--color-ocean);
 }
 
+/* ---------- HERO ---------- */
+
 .hero {
   background-color: var(--color-navy-blue);
+  padding: 120px 0;
   text-align: center;
-  padding: 100px 0;
 }
 
 .hero-title {
@@ -88,23 +90,29 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 40px;
 }
 
 .hero-btn {
   color: var(--color-white);
   background-color: var(--color-iris);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-ocean);
 }
+
+/* ---------- FEATURES ---------- */
 
 .features-item-title {
   color: var(--color-navy-blue);
@@ -121,7 +129,13 @@ body {
   line-height: 1.5;
 }
 
-.portfolio-title,
+/* ---------- TEAM ---------- */
+
+.team {
+  background-color: var(--color-cloud);
+  padding: 120px 0;
+}
+
 .team-title {
   color: var(--color-navy-blue);
   font-weight: 700;
@@ -130,18 +144,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.team {
-  background-color: var(--color-cloud);
-}
-
-.team-list {
-  background-color: var(--color-white);
+  margin-bottom: 72px;
 }
 
 .team-item {
   background-color: var(--color-white);
+  text-align: center;
+  padding-bottom: 32px;
+  border-radius: 4px;
 }
 
 .team-member-name {
@@ -150,25 +160,26 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 16px 0 8px;
 }
 
 .team-member-role {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.page-footer {
-  background-color: var(--color-navy-blue);
-  padding: 20px;
-}
+/* ---------- PORTFOLIO ---------- */
 
-.footer-text {
-  color: var(--color-cloud);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.portfolio-title {
+  color: var(--color-navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-item-title {
@@ -177,12 +188,30 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 16px 0 8px;
 }
 
 .portfolio-item-text {
   color: var(--color-slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+}
+
+/* ---------- FOOTER ---------- */
+
+.page-footer {
+  background-color: var(--color-navy-blue);
+  padding: 100px 0;
+}
+
+.logo-footer {
+  color: var(--color-cloud);
+}
+
+.footer-text {
+  color: var(--color-cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+  max-width: 264px;
 }
