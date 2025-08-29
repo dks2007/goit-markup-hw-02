@@ -77,7 +77,6 @@ a {
 
 .hero {
   background-color: var(--color-navy-blue);
-  padding: 120px 0;
   text-align: center;
 }
 
@@ -87,7 +86,6 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
 }
 
 .hero-btn {
