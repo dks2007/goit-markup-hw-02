@@ -18,13 +18,10 @@ body {
   background-color: var(--color-white);
   font-size: 16px;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -102,9 +99,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -133,7 +127,6 @@ a {
 
 .team {
   background-color: var(--color-cloud);
-  padding: 120px 0;
 }
 
 .team-title {
@@ -144,14 +137,11 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .team-item {
   background-color: var(--color-white);
   text-align: center;
-  padding-bottom: 32px;
-  border-radius: 4px;
 }
 
 .team-member-name {
@@ -160,7 +150,6 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 16px 0 8px;
 }
 
 .team-member-role {
@@ -179,7 +168,6 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .portfolio-item-title {
@@ -188,7 +176,6 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin: 16px 0 8px;
 }
 
 .portfolio-item-text {
@@ -201,7 +188,6 @@ a {
 
 .page-footer {
   background-color: var(--color-navy-blue);
-  padding: 100px 0;
 }
 
 .logo-footer {
@@ -212,6 +198,4 @@ a {
   color: var(--color-cloud);
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 16px;
-  max-width: 264px;
 }
